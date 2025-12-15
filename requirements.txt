@@ -1,44 +1,40 @@
-accelerate
-aiohttp
-altair
-anthropic
-bcrypt
-bitsandbytes
-chromadb
-duckduckgo_search
-faiss-cpu
-google-ai-generativelanguage
-google-api-python-client
-google-genai
-google-generativeai
-huggingface-hub
-jupyterlab
+# LangChain Core
 langchain
-langchain-anthropic
-langchain-chroma
-langchain-community
 langchain-core
-langchain-experimental
-langchain-huggingface
+
+# OpenAI Integration
 langchain-openai
-langgraph
-ollama
-onnxruntime
 openai
-pandas
-pillow
-pydantic
-pydantic-settings
-pypdf
-PyYAML
-requests
-scikit-learn
-scipy
-sentence-transformers
-sentencepiece
-SQLAlchemy
-streamlit
-torch
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini (PaLM) Integration
+langchain-google-genai
+google-generativeai
+
+# Hugging Face Integration
+langchain-huggingface
 transformers
-uvicorn
-youtube-transcript-api
+huggingface-hub
+
+# Environment Variable Management
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
+
+# frient-end creating laibrary 
+streamlit
+
+langchain
+langgraph
+openai
+anthropic
+google-genai
+transformers
+torch
+sentence-transformers
+chromadb
+streamlit
